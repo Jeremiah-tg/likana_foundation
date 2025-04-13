@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!--------------------
-Template Name: Charitics - NGO & Non Profit HTML Template
+Template Name: Likana Foundation
 Author: tempticspro
 Version: 1.0
 
@@ -49,8 +49,11 @@ CSS INDEX
 :root {
   --black: #000;
   --white: #fff;
-  --ul-primary: #EB5310;
-  --ul-secondary: #FAA019;
+  --ul-primary: #10742E;
+  /* -ul-primary: #96CA3F; */
+  /* --ul-primary: #EB5310;4CBB17 */
+  /* --ul-secondary: #FAA019; */
+  --ul-secondary: #99661a;
   --ul-c3: #FFE9C8;
   --ul-c4: #FFF9F4;
   --ul-c5: #FC791A;
@@ -1678,7 +1681,8 @@ button {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(101.64deg, rgba(235, 83, 16, 0.9) 1.87%, rgba(235, 83, 16, 0.1) 98.72%);
+  /* background: linear-gradient(101.64deg, rgba(235, 83, 16, 0.9) 1.87%, rgba(235, 83, 16, 0.1) 98.72%); */
+  background: linear-gradient(101.64deg, rgba(16, 116, 46, 0.9) 1.87%, rgba(16, 116, 46, 0.1) 98.72%);
   pointer-events: none;
 }
 .ul-banner-2-slide-bg-img {
@@ -2725,7 +2729,8 @@ button {
 }
 
 .ul-testimonial-2-overview {
-  background-color: #F5F0E2;
+  /* background-color: #F5F0E2; */
+  background-color: rgba(16, 116, 46, 0.6);
   text-align: center;
   padding: clamp(25px, 2.36vw, 45px) clamp(18px, 1.89vw, 36px);
   border-radius: clamp(15px, 1.58vw, 30px);
@@ -2740,7 +2745,8 @@ button {
 }
 .ul-testimonial-2-overview-stars {
   font-size: clamp(20px, 1.31vw, 25px);
-  color: #FFA31A;
+  /* color: #FFA31A; */
+  color: #fff;
   margin-bottom: clamp(1px, 0.21vw, 4px);
 }
 .ul-testimonial-2-overview-title {
@@ -3542,7 +3548,7 @@ button {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(255, 87, 40, 0.9);
+  background: rgba(16, 116, 46, 0.6);
   z-index: -1;
 }
 .ul-volunteer-block .ul-btn {
