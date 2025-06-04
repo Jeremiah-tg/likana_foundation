@@ -165,11 +165,20 @@ button {
 }
 
 /* New animations */
-.hover-zoom img {
+#ul-about-tab-img1:hover img {
+  transform: scale(1.05);
+}
+#ul-about-tab2:hover img {
+  transform: scale(1.05);
+}
+#ul-about-tab3:hover img {
+  transform: scale(1.05);
+}
+.hover-zoom,.img-wrapper,.ul-about-tab-img img {
   transition: transform 0.4s ease;
 }
 
-.hover-zoom:hover img {
+.hover-zoom,.ul-about-tab-img,.img-wrapper:hover img {
   transform: scale(1.05);
 }
 .ul-about-2-bottom-block:hover {
