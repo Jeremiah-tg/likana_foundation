@@ -44,6 +44,9 @@ CSS INDEX
 34. Pricing Page
 
 */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Quicksand:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
 :root {
@@ -159,6 +162,35 @@ input:-webkit-autofill:active {
 button {
   background: none;
   border: none;
+}
+
+/* New animations */
+.hover-zoom img {
+  transition: transform 0.4s ease;
+}
+
+.hover-zoom:hover img {
+  transform: scale(1.05);
+}
+.ul-about-2-bottom-block:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+.ul-about-2-bottom-block-icon img {
+  transition: transform 0.3s ease;
+}
+
+.ul-about-2-bottom-block:hover .ul-about-2-bottom-block-icon img {
+  transform: scale(1.2) rotate(5deg);
+}
+.ul-about-2-stat {
+  transition: all 0.7s ease-in-out; /* Smooth transition for all properties */
+}
+.ul-about-2-stat:hover{
+  background-color: transparent;
+  border: solid 2px green;
+  color:green;
 }
 
 @media screen and (max-width: 479px) {
